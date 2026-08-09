@@ -6,7 +6,7 @@ declare(strict_types=1);
  * English translations: privacy pages.
  */
 return [
-    'page_title'          => 'Deine Datumn',
+    'page_title'          => 'Deine Daten',
     'greeting'            => 'Hallo :name,',
     'email_label'         => 'E-Mail',
     'phone_label'         => 'Telefon',
@@ -23,7 +23,7 @@ return [
     'data_anonymized'     => 'Deine Daten wurden anonymisiert.',
     'anonymized_note'     => 'Buchungsdaten bleiben aus betrieblichen Gründen erhalten. Alle personenbezogenen Informationen wurden entfernt.',
     'powered_by'          => 'Bereitgestellt von :app_name',
-    'data_stored_on'      => 'Your data is stored on :name\'s server',
+    'data_stored_on'      => 'Deine Daten sind gespeichert auf :name\'s server',
     'page_not_found'      => 'Seite nicht gefunden',
-    'page_not_found_desc' => 'The booking page you\'re looking for doesn\'t exist or has been removed.',
+    'page_not_found_desc' => 'Die Buchungsseite konnte nich gefunden werden oder wurde entfernt',
 ];
