@@ -51,3 +51,7 @@ storage/sessions/
 
 # ── IDE artifacts ──
 getMessage
+
+# ── Local server runtime ──
+/public/.htpasswd
+/uploads/

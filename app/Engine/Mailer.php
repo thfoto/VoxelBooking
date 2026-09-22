@@ -115,7 +115,12 @@ final class Mailer
 
             // Timeouts — never hold a database lock waiting for SMTP
             $mail->Timeout    = 10;
-            $mail->SMTPDebug  = 0;
+            $mail->SMTPDebug = 3;
+
+            $mail->Debugoutput = function ($str, $level) {
+                Logger::error("SMTP[$level] " . $str);
+            };
+
 
             // Sender — tenant-scoped emails override the display name
             $fromAddress   = $config['mail_from_address'] ?: 'noreply@' . ($_SERVER['HTTP_HOST'] ?? 'localhost');

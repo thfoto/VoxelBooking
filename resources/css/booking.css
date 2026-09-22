@@ -2371,6 +2371,7 @@ body {
   color: var(--vb-text-secondary);
   margin: 0 0 20px;
   line-height: 1.6;
+  white-space: pre-line;
 }
 
 .vb-book-event-detail-grid {
