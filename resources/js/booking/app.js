@@ -22,6 +22,9 @@ import {
     Sun, Moon, ArrowDown,
 } from 'lucide';
 import { resolveInitialPartySize } from './party-size.js';
+import { registerFormattedText } from './formatted-text.js';
+
+registerFormattedText(Alpine);
 
 const ICON_SET = {
     ChevronLeft, ChevronRight, ChevronDown, Clock, Globe, Check, X,
